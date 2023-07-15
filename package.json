@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LaserWeb/LaserWeb4.git"
+    "url": "git+https://github.com/psych0d0g/LaserWeb4.git"
   },
   "keywords": [
     "laser",
@@ -35,7 +35,7 @@
   ],
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/LaserWeb/LaserWeb4/issues"
+    "url": "https://github.com/psych0d0g/LaserWeb4/issues"
   },
   "homepage": "https://laserweb.yurl.ch",
   "devDependencies": {
@@ -70,7 +70,7 @@
     "keyboardjs": "^2.5.1",
     "lw.canvas-filters": "git+https://github.com/LaserWeb/lw.canvas-filters.git",
     "lw.canvas-grid": "git+https://github.com/LaserWeb/lw.canvas-grid.git",
-    "lw.comm-server": "git+https://github.com/LaserWeb/lw.comm-server.git",
+    "lw.comm-server": "git+https://github.com/psych0d0g/lw.comm-server.git",
     "lw.raster-to-gcode": "git+https://github.com/LaserWeb/lw.raster-to-gcode.git",
     "lw.svg-curves": "^0.1.0",
     "lw.svg-path": "^0.1.0",
