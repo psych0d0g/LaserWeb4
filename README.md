@@ -1,9 +1,9 @@
 # LaserWeb (4.0.x)
 
-This repository is a "development environment" - and no regular user would have to touch this at all (dont download the repo from here, use the Download links below)
+This repository is a "custom environment" - and no regular user would have to touch this at all, this laserweb fork is customized for a very specific lasercutter in our lab
 
 ## Download
-Releases are made available on https://github.com/LaserWeb/LaserWeb4-Binaries/
+Upstream Releases are made available on https://github.com/LaserWeb/LaserWeb4-Binaries/
 
 ## Documentation
 For more documentation, go to the [Wiki](https://github.com/LaserWeb/LaserWeb4/wiki) or our website https://laserweb.yurl.ch
