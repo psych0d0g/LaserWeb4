@@ -1,17 +1,28 @@
-2018-09-18 12:39:59  
-2018-09-18 12:39:59 ***************************************************************
-2018-09-18 12:39:59         ---- LaserWeb Comm Server 4.0.131 ----        
-2018-09-18 12:39:59 ***************************************************************
-2018-09-18 12:39:59   Use  http://192.168.14.100:8000 to connect this server.
-2018-09-18 12:39:59  
-2018-09-18 12:39:59 * Updates: 
-2018-09-18 12:39:59   Remember to check the commit log on
-2018-09-18 12:39:59   https://github.com/LaserWeb/lw.comm-server/commits/master
-2018-09-18 12:39:59   regularly, to know about updates and fixes, and then when ready
-2018-09-18 12:39:59   update accordingly by running git pull
-2018-09-18 12:39:59  
-2018-09-18 12:39:59 * Support: 
-2018-09-18 12:39:59   If you need help / support, come over to 
-2018-09-18 12:39:59   https://plus.google.com/communities/115879488566665599508
-2018-09-18 12:39:59 ***************************************************************
-2018-09-18 12:39:59  
+2023-07-15 09:57:40  
+2023-07-15 09:57:40 ***************************************************************
+2023-07-15 09:57:40         ---- LaserWeb Comm Server 4.1.000 ----        
+2023-07-15 09:57:40 ***************************************************************
+2023-07-15 09:57:40   Use  http://172.18.11.141:8000 to connect to this server.
+2023-07-15 09:57:40  
+2023-07-15 09:57:40 * Updates: 
+2023-07-15 09:57:40   Remember to check the commit log on
+2023-07-15 09:57:40   https://github.com/LaserWeb/lw.comm-server/commits/master
+2023-07-15 09:57:40   regularly, to know about updates and fixes, and then when ready
+2023-07-15 09:57:40   update accordingly by running git pull
+2023-07-15 09:57:40  
+2023-07-15 09:57:40 * Support: 
+2023-07-15 09:57:40   If you need help / support, come over to 
+2023-07-15 09:57:40   https://forum.makerforums.info/c/laserweb-cncweb/78
+2023-07-15 09:57:40 ***************************************************************
+2023-07-15 09:57:40  
+2023-07-15 09:57:40 Server binding to all local IP addresses on port: 8000
+2023-07-15 09:57:46 App connected! (id=0, ip=127.0.0.1)
+2023-07-15 09:57:46 Connect (0) Sending Interfaces list: USB,ESP8266,Telnet
+2023-07-15 09:57:46 Connect(0) Sending Ports list: /dev/ttyS0,/dev/ttyS1,/dev/ttyS2,/dev/ttyS3
+2023-07-15 09:57:46 INFO: Requesting Server Config 
+2023-07-15 09:58:28 App disconnected! (id=0, reason: connection close)
+2023-07-15 09:59:59 App connected! (id=0, ip=127.0.0.1)
+2023-07-15 09:59:59 Connect (0) Sending Interfaces list: USB,ESP8266,Telnet
+2023-07-15 09:59:59 INFO: Requesting Server Config 
+2023-07-15 09:59:59 Connect(0) Sending Ports list: /dev/ttyS0,/dev/ttyS1,/dev/ttyS2,/dev/ttyS3
+2023-07-15 10:01:02 App disconnected! (id=0, reason: connection close)

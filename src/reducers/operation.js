@@ -33,7 +33,7 @@ export const OPERATION_INITIALSTATE = {
     millRapidZ: 0,
     millStartZ: 0,
     millEndZ: 0,
-    segmentLength: 0,
+    segmentLength: 0.5,
     tabDepth: 0,
     plungeRate: 0,
     cutRate: 0,
