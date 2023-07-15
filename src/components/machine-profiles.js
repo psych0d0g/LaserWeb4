@@ -25,7 +25,7 @@ class MachineProfile extends React.Component {
         this.handleInput.bind(this);
         this.handleSave.bind(this);
         
-        let selected = this.props.settings.__selectedProfile || "";
+        let selected = this.props.settings.__selectedProfile || "LaserSaur";
         
         this.state={selected: selected , newLabel: '', newSlug:''}
     }

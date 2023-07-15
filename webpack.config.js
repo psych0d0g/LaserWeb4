@@ -14,45 +14,47 @@ module.exports = {
         filename: 'index.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['react'],
-                    plugins: ['transform-es2015-destructuring', 'transform-es2015-parameters', 'transform-object-rest-spread', 'transform-es2015-modules-commonjs', 'react-hot-loader/babel']
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['react'],
+                        plugins: ['transform-es2015-destructuring', 'transform-es2015-parameters', 'transform-object-rest-spread', 'transform-es2015-modules-commonjs', 'react-hot-loader/babel']
+                    }
                 }
             }, {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader'
+                use: 'style-loader!css-loader'
             }, {
                 test: /\.png$/,
-                loader: 'url-loader?limit=100000'
+                use: 'url-loader?limit=100000'
             }, {
                 test: /\.jpg$/,
-                loader: 'file-loader'
+                use: 'file-loader'
             }, {
                 test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-                loader: 'url-loader?limit=10000&mimetype=application/font-woff'
+                use: 'url-loader?limit=10000&mimetype=application/font-woff'
             }, {
                 test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-                loader: 'url-loader?limit=10000&mimetype=application/octet-stream'
+                use: 'url-loader?limit=10000&mimetype=application/octet-stream'
             }, {
                 test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-                loader: 'file-loader'
+                use: 'file-loader'
             }, {
                 test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-                loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
+                use: 'url-loader?limit=10000&mimetype=image/svg+xml'
             }, {
                 test: /\.json$/,
-                loader: 'json-loader'
+                use: 'json-loader'
             }, {
                 test: /\.swf$/,
-                loader: "file-loader?name=[path][name].[ext]"
+                use: "file-loader?name=[path][name].[ext]"
             }, {
                 test: require.resolve('snapsvg'),
-                loader: 'imports-loader?this=>window,fix=>module.exports=0'
+                use: 'imports-loader?this=>window,fix=>module.exports=0'
             },
         ]
     },
